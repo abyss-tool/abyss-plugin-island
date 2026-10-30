@@ -1,0 +1,21 @@
+{
+  "id": "abyss-plugin-island",
+  "name": "灵动岛与悬浮球",
+  "version": "0.1.0",
+  "minHost": 1,
+  "minApp": "0.1.0",
+  "category": "desktop",
+  "summary": "WindowManager 悬浮件：灵动岛状态动画 / 悬浮球拖拽吸附 / 任意页全局可达。",
+  "icon": "🌊",
+  "permissions": [
+    "SYSTEM_ALERT_WINDOW"
+  ],
+  "entry": "com.abyss.tools.plugin.island.IslandPlugin",
+  "repo": "Ultra-Guru/abyss-plugin-island",
+  "patchChannel": "https://raw.githubusercontent.com/Ultra-Guru/abyss-plugin-island/main/patches/index.json",
+  "roadmap": [
+    "v0.2 悬浮球与拖拽",
+    "v0.3 灵动岛动画",
+    "v0.4 桌面组件（Glance）"
+  ]
+}
